@@ -13,8 +13,8 @@ fn main() {
         .map(|x| x.parse().unwrap())
         .collect();
 
-    let N: i32 = condition[0];
-    let M: i32 = condition[1];
+    let N = condition[0];
+    let M = condition[1];
 
     let mut numbers: Vec<i32> = numbers
         .split_whitespace()

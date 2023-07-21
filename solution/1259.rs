@@ -1,5 +1,7 @@
 use std::io;
+mod test{
 
+}
 fn main() {
     loop {
         //준비
